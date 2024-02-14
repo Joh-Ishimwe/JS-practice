@@ -44,7 +44,13 @@ console.log (doublenumber);
 
 let oddNumber = number.filter(number => number % 2 !== 0);
 console.log(oddNumber);*/
-let firstArray = [1, 2, 3];
+/*let firstArray = [1, 2, 3];
 let secondArray = [4, 5, 6];
 let combinedArray = firstArray.concat(secondArray);
-console.log(combinedArray);
+console.log(combinedArray);*/
+
+
+let duplicates = [1, 2, 2, 3, 4, 4, 5];
+let uniqueArray = [...new Set(duplicates)];
+console.log(uniqueArray);
+
