@@ -26,14 +26,25 @@ console.log(Doorangeexit);*/
   console.log(color[i]);
 }
 */
-let color = ["red", "green", "blue"];
-
-color.push("orange");
+/*let color = ["red", "green", "blue"];
 // Add "orange" in the array
- for (let i = 0; i < color.length; i++) {
 color.push("orange");
+ for (let i = 0; i < color.length; i++) {
+  //  console.log(color)
 console.log(color[i]);
  }
 
 // Print the updated array
 //console.log(color);
+
+*/
+/*let number = [1,2,3,4,5,6];
+let doublenumber = number.map (number => number *2);
+console.log (doublenumber);
+
+let oddNumber = number.filter(number => number % 2 !== 0);
+console.log(oddNumber);*/
+let firstArray = [1, 2, 3];
+let secondArray = [4, 5, 6];
+let combinedArray = firstArray.concat(secondArray);
+console.log(combinedArray);
